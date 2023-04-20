@@ -1,11 +1,141 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
+
+html, body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, minmax(100px, 200px));
+  gap: 10px;
 }
 
-html,
-body,
-#root {
+.content-wrapper {
+  display: flex;
+  margin-top: 60px;
   height: 100%;
-  width: 100%;
+  grid-template-columns: auto;
 }
+
+.content-wrapper {
+  display: flex;
+  margin-top: 60px;
+  height: 100%;
+}
+
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.content-wrapper {
+  display: flex;
+  margin-top: 60px;
+  height: 100%;
+}
+
+.user-posts-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+}
+
+.user-profile {
+  flex: 1;
+}
+
+.posts {
+  flex: 2;
+}
+
+.contacts {
+  flex: 1;
+}
+
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.content-wrapper {
+  display: flex;
+  margin-top: 60px;
+  height: 100%;
+}
+
+.user-posts-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+}
+
+.user-profile {
+  flex: 1;
+}
+
+.posts {
+  flex: 2;
+}
+
+.contacts {
+  flex: 1;
+}
+
+.toplevel {
+  text-align: end;
+}
+
+.profile {
+  display: flex;
+  margin-top: 10px;
+  length: 75%;
+  height: 20%;
+}
+
+

@@ -5,15 +5,17 @@ import Posts from "./Components/Posts.js";
 import Contacts from "./Components/Contacts.js";
 import NavBar from "./Components/NavBar.js";
 
-//parent
-
 function App() {
   return (
-    <div>
-      <NavBar />
-      <UserProfile />
-      <Posts />
-      <Contacts />
+    <div className="app-main">
+      <NavBar/>
+      <div className="content-wrapper">
+        <div className="user-posts-wrapper">
+          <UserProfile/>
+          <Posts/>
+        </div>
+        <Contacts/>
+      </div>
     </div>
   );
 }

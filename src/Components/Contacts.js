@@ -1,9 +1,19 @@
+import React from "react";
 import ContactUserCard from "./ContactUserCard";
 //child
 
 function Contacts() {
     return (
-       <div></div>
+       <div>
+        <img src="profile.png" alt="profile_img" />
+        <ContactUserCard/>
+        <img src="profile.png" alt="profile_img" />
+        <ContactUserCard/>
+        <img src="profile.png" alt="profile_img" />
+        <ContactUserCard/>
+        <img src="profile.png" alt="profile_img" />
+        <ContactUserCard/>
+       </div>
     )
    }
 

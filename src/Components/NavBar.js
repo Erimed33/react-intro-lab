@@ -1,9 +1,15 @@
-
+import React from "react";
 //child
 
 function NavBar() {
  return (
-    <div className="navbar">Navigation Bar</div>
+    <div className="toplevel">
+ <ul >
+<li>What is Pursuit?</li>
+<li>Create an account</li>
+<li>Sign in</li>
+ </ul>
+ </div>
  )
 }
 
